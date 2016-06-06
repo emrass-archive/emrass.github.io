@@ -1,0 +1,12 @@
+{
+  "name": "emrass.github.io",
+  "version": "1.0.0",
+  "description": "The repo for emrass.de",
+  "private": true,
+  "author": "Enrico Mraß",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "load-grunt-config": "^0.19.2",
+    "load-grunt-tasks": "^3.5.0"
+  }
+}
