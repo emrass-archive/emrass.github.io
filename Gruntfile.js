@@ -12,6 +12,10 @@
 
     var gruntData = {
       // restart the grunt connect server after changing any value
+      paths: {
+        src: 'src',
+        dist: 'dist'
+      }
     };
 
     // Load all grunt config files (in grunt subfolder) and all tasks installed via npm

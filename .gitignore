@@ -39,6 +39,9 @@ Thumbs.db
 /node_modules/
 .tmp
 
+/.jekyll/
+/dist/
+
 # Ignore for RVM users #
 .ruby-version
 .ruby-gemset
