@@ -5,6 +5,13 @@
     var tasks = {
     };
 
+    tasks['serve'] = [
+      'clean:server',
+      'jekyll:server',
+      'connect:server',
+      'watch'
+    ];
+
     return tasks;
   };
 }());
