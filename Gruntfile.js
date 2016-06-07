@@ -25,6 +25,7 @@
       // Load grunt plugins just-in-time (faster than using load-grunt-tasks)
       jitGrunt: {
         staticMappings: {
+          buildcontrol: 'grunt-build-control'
         }
       },
 
