@@ -12,6 +12,16 @@
       'watch'
     ];
 
+    tasks['build'] = [
+      'clean',
+      'jekyll:dist'
+    ];
+
+    tasks['deploy'] = [
+      'build',
+      'buildcontrol'
+    ];
+
     return tasks;
   };
 }());
