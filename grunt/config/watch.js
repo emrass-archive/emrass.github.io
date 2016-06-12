@@ -13,7 +13,7 @@
 
     watch['sass'] = {
       files: [
-        config.paths.src + '/_sass/**/*.{scss,sass}'
+        config.paths.src + '/_scss/**/*.{scss,sass}'
       ],
       tasks: ['sass:server']
     };

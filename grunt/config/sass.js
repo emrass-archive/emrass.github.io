@@ -13,7 +13,7 @@
     sass['dist'] = {
       files: [{
         expand: true,
-        cwd: config.paths.src + '/_sass',
+        cwd: config.paths.src + '/_scss',
         src: '**/*.{scss,sass}',
         dest: config.paths.tmp + '/css',
         ext: '.css'
@@ -27,7 +27,7 @@
       },
       files: [{
         expand: true,
-        cwd: config.paths.src + '/_sass',
+        cwd: config.paths.src + '/_scss',
         src: '**/*.{scss,sass}',
         dest: config.paths.tmp + '/css',
         ext: '.css'
