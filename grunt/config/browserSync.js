@@ -13,7 +13,8 @@
         src: [
           config.paths.jekyllServer + '/**/*.html',
           config.paths.tmp + '/css/**/*.css',
-          '{' + config.paths.tmp + ',' + config.paths.src + '}/js/**/*.js',
+          config.paths.tmp + '/js/**/*.js',
+          config.paths.src + '/js/**/*.js',
           config.paths.src + '/_bower_components/**/*.js',
           config.paths.src + '/img/**/*.{.gif,jpg,jpeg,png,svg,webp}'
         ]
