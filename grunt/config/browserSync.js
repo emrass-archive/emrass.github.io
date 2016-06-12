@@ -2,7 +2,11 @@
   'use strict';
 
   module.exports = function(grunt, config) {
-    var browserSync = {};
+    var browserSync = {
+      options: {
+        notify: false
+      }
+    };
 
     browserSync['server'] = {
       bsFiles: {
