@@ -14,7 +14,9 @@
       // restart the grunt connect server after changing any value
       paths: {
         src: 'src',
-        dist: 'dist'
+        dist: 'dist',
+        jekyllServer: '.jekyll',
+        tmp: '.tmp'
       }
     };
 

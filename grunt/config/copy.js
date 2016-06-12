@@ -8,9 +8,9 @@
       files: [{
         expand: true,
         dot: true,
-        cwd: config.paths.app + '/css',
+        cwd: config.paths.src + '/css',
         src: '**/*.css',
-        dest: '.tmp/css'
+        dest: config.paths.tmp + '/css'
       }]
     };
 

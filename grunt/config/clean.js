@@ -14,7 +14,7 @@
       }]
     };
 
-    clean['server'] = ['.tmp', '.jekyll'];
+    clean['server'] = [config.paths.tmp, config.paths.jekyllServer];
 
     return clean;
   };
