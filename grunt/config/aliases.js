@@ -14,7 +14,9 @@
 
     tasks['build'] = [
       'clean',
-      'jekyll:dist'
+      'jekyll:dist',
+      'sass:dist',
+      'copy:stageCss'
     ];
 
     tasks['deploy'] = [

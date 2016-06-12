@@ -11,7 +11,14 @@
       tasks: ['jekyll:server']
     };
 
-    watch['server'] = ['.tmp', '.jekyll'];
+    watch['sass'] = {
+      files: [
+        config.paths.app + '_scss/**/*.{scss,sass}'
+      ],
+      tasks: ['sass:server']
+    };
+
+    watch['server'] = ['.tmp', '.jekyll'];;
 
     return watch;
   };
