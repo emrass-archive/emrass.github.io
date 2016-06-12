@@ -11,7 +11,7 @@ npm install && bower install
 
 Use the following tasks:
 
-- `grunt serve` to serve the site using browserSync
+- `grunt serve` to serve the site locally using browserSync
 - `grunt build` to build the website; optionally run `grunt browserSync:dist` afterwards to serve the build site
 - `grunt deploy` to build the site and deploy it to Github Pages. Requires a clean Git staging area
 
