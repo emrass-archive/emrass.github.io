@@ -7,6 +7,8 @@
 
     tasks['serve'] = [
       'clean:server',
+      'sass:server',
+      'copy:stageCss',
       'jekyll:server',
       'browserSync:server',
       'watch'
