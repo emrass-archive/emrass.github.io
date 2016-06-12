@@ -6,7 +6,8 @@
       options: {
         bundleExec: true,
         debugInfo: false,
-        lineNumbers: false
+        lineNumbers: false,
+        loadPath: config.paths.src + '/_bower_components'
       }
     };
 

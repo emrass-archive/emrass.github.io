@@ -33,7 +33,7 @@ Thumbs.db
 *.zip
 
 # Ignore for Jekyll projects with npm and bower #
-/bower_components/
+src/_bower_components/
 /vendor/
 /_site/
 /node_modules/

@@ -16,9 +16,9 @@
           'img/**/*',
           'fonts/**/*',
           // Like Jekyll, exclude files and folders prefixed with an _
-          '!**/_*{,/**}'
+          '!**/_*{,/**}',
           // Explicitly add any files the site needs for distribution here
-          // , '...'
+          '_bower_components/jquery/dist/jquery.min.js'
         ],
         dest: config.paths.dist
       }]
