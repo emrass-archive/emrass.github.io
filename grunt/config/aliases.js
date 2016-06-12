@@ -26,7 +26,8 @@
       'cssmin:generated',
       'postcss:dist',
       'uglify:generated',
-      'usemin'
+      'usemin',
+      'htmlmin'
     ];
 
     tasks['deploy'] = [
