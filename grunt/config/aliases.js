@@ -8,7 +8,7 @@
     tasks['serve'] = [
       'clean:server',
       'jekyll:server',
-      'connect:server',
+      'browserSync:server',
       'watch'
     ];
 
