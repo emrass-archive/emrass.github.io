@@ -27,6 +27,7 @@
       'postcss:dist',
       'uglify:generated',
       'imagemin:dist',
+      'svgmin:dist',
       'filerev:dist',
       'usemin',
       'htmlmin'
