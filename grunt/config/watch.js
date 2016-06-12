@@ -11,6 +11,13 @@
       tasks: ['jekyll:server']
     };
 
+    watch['css'] = {
+      files: [
+        config.paths.src + '/css/**/*.css'
+      ],
+      tasks: ['copy:stageCss']
+    };
+
     watch['sass'] = {
       files: [
         config.paths.src + '/_scss/**/*.{scss,sass}'
