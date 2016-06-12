@@ -18,7 +18,13 @@
       'clean',
       'jekyll:dist',
       'sass:dist',
-      'copy:stageCss'
+      'copy:dist',
+      'useminPrepare',
+      // add usemin tasks here, e.g. concat:generated, cssmin:generated, ...
+      'concat:generated',
+      'cssmin:generated',
+      'uglify:generated',
+      'usemin'
     ];
 
     tasks['deploy'] = [
