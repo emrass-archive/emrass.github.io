@@ -10,6 +10,7 @@
       'sass:server',
       'copy:stageCss',
       'jekyll:server',
+      'postcss:dist',
       'browserSync:server',
       'watch'
     ];
@@ -23,6 +24,7 @@
       // add usemin tasks here, e.g. concat:generated, cssmin:generated, ...
       'concat:generated',
       'cssmin:generated',
+      'postcss:dist',
       'uglify:generated',
       'usemin'
     ];

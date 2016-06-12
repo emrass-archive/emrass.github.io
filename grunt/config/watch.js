@@ -15,14 +15,14 @@
       files: [
         config.paths.src + '/css/**/*.css'
       ],
-      tasks: ['copy:stageCss']
+      tasks: ['copy:stageCss', 'postcss:dist']
     };
 
     watch['sass'] = {
       files: [
         config.paths.src + '/_scss/**/*.{scss,sass}'
       ],
-      tasks: ['sass:server']
+      tasks: ['sass:server', 'postcss:dist']
     };
 
     watch['server'] = [config.paths.tmp, config.paths.jekyllServer];
