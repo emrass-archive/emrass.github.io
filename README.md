@@ -18,3 +18,4 @@ Use the following tasks:
 ## Credits
 
 - The build process is heavily inspired by [generator-jekyllrb](https://github.com/robwierzbowski/generator-jekyllrb)
+- The template is based on [Clean Blog by Start Bootstrap - Jekyll Version](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll) which is available under the [MIT license](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/blob/gh-pages/LICENSE)
