@@ -17,4 +17,4 @@ Use the following tasks:
 
 ## Credits
 
-The build process is heavily inspired by [generator-jekyllrb](https://github.com/robwierzbowski/generator-jekyllrb).
+- The build process is heavily inspired by [generator-jekyllrb](https://github.com/robwierzbowski/generator-jekyllrb)
