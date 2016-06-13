@@ -8,7 +8,10 @@
       files: [{
         expand: true,
         cwd: config.paths.dist,
-        src: '**/*.svg',
+        src: [
+          '**/*.svg',
+          '!fonts/**/*.svg'
+        ],
         dest: config.paths.dist
       }]
     };
