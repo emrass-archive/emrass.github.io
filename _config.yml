@@ -10,6 +10,8 @@ github_username:  emrass
 bitbucket_username: emrass
 email_username: "enrico.mrass@gmail.com"
 
+header-img: img/home-bg.jpg
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
