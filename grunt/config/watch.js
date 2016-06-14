@@ -7,6 +7,7 @@
     watch['jekyll'] = {
       files: [
         config.paths.src + '/**/*.{html,yml,md,mkd,markdown}',
+        './_config.yml',
         '!' + config.paths.src + '/_bower_components/**/*'
       ],
       tasks: ['jekyll:server']
